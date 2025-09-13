@@ -1,0 +1,209 @@
+.background{
+position: absolute;
+height: 500px;
+width: 500px;
+background: #FEF5AC;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 100%;
+box-shadow: 10px 10px 10px #ac7328;
+}
+.pot{
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top: 100px solid #c79048;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 100px;
+    z-index: 2;
+}
+.eye{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border-top: 5px solid black;
+    bottom: 70px;
+    left: 20px;
+}
+.eye1{
+    bottom: 95px;
+    left: 60px;
+}
+.mouth{
+    position: relative;
+    height: 20px;
+    width: 40px;
+    border-radius: 100%;
+    left: 30px;
+    bottom: 100px;
+    border-bottom: 10px solid #3a0b12;
+}
+.mouth::after{
+    position: absolute;
+    content: "";
+    background: #911529;
+    height: 7px;
+    width: 20px;
+    left: 10px;
+    top: 22px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-radius: 70% 70% 100% 100%;
+
+}
+
+.top{
+    position: relative;
+    top: -170px;
+    border-top: 20px solid #a76f26;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    width: 145px;
+    z-index: 3;
+}
+.cactus{
+    position: relative;
+    background: #0b8325;
+    height: 200px;
+    width: 100px;
+    left: 200px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.pot::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    bottom: 6px;
+    border-left: #e9b36d solid 3px;
+    border-bottom-left-radius: 100%;
+}
+.cactus::after{
+    position: absolute;
+    content: "";
+    height: 150px;
+    width: 20px;
+    left: 50px;
+    top:9px;
+    border-right:#075819 solid 7px;
+    border-radius: 100%;
+}
+.cactus::before{
+    position: absolute;
+    content: "";
+    height: 150px;
+    width: 20px;
+    left: 22px;
+    top:9px;
+    border-left:#075819 solid 7px;
+    border-radius: 100%;
+}
+.cheek{
+    position: relative;
+    background: #cf5a6d;
+    height: 20px;
+    width: 30px;
+    border-radius: 100%;
+    bottom: 152px;
+    opacity: 0.5;
+}
+.cheek::after{
+    position:absolute;
+    content: "";
+    height: 12px;
+    width: 2px;
+    background: #911529;
+    left: 10px;
+    top: 3px;
+    transform: rotate(20deg);
+}
+.cheek::before{
+    position:absolute;
+    content: "";
+    height: 12px;
+    width: 2px;
+    background: #911529;
+    left: 20px;
+    top: 3px;
+    transform: rotate(20deg);
+}
+.cheek1{
+    position: relative;
+    left: 70px;
+    bottom: 171px;
+}
+.pricks{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 20px solid #075819;
+    left: 20px;
+    transform: rotate(-45deg);
+}
+.pricks::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 20px solid #075819;
+    right: 50px;
+    transform: rotate(-30deg);
+    top: 20px;
+}
+.pricks::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 20px solid #075819;
+    right: 90px;
+    transform: rotate(-85deg);
+    top: 60px;
+}
+.pricks2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 20px solid #075819;
+    left: 77px;
+    transform: rotate(45deg);
+    top: 20px;
+}
+.pricks2::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 20px solid #075819;
+    left: 50px;
+    transform: rotate(45deg);
+    top: 20px;
+}
+.pricks2::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 20px solid #075819;
+    left: 90px;
+    transform: rotate(70deg);
+    top: 60px;
+}
